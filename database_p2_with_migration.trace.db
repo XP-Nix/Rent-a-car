@@ -1,0 +1,5 @@
+2024-11-22 11:21:07.186409+02:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]...\000d\000aALTER TABLE users\000d\000aADD COLUMN deleted BOOLEAN DEFAULT FALSE"; SQL statement:
+...
+ALTER TABLE users
+ADD COLUMN deleted BOOLEAN DEFAULT FALSE [42000-224]
