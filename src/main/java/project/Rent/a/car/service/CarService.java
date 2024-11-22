@@ -43,6 +43,7 @@ public class CarService {
             car.setModel(rs.getString("model"));
             car.setDailyRate(rs.getDouble("daily_rate"));
             car.setCityId(rs.getInt("city_id"));
+            car.setDeleted(rs.getBoolean("deleted"));
             return car;
         });
     }
