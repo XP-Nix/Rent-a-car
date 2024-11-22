@@ -43,7 +43,7 @@ public class CarController {
     }
 
 
-    //list cars based on the users address
+    //list cars based on the users addres
     @GetMapping("/car-city/{cityid}")
     public ResponseEntity<?> getCarsByCityId(@PathVariable("cityid") int cityid) {
 
